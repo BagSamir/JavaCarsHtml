@@ -10,7 +10,7 @@ public class CarDaoImpl implements CarDao {
     private List<Cars> cars = new ArrayList<>();
 
     @Override
-    public List<Cars> getAllCars(int count) {
+    public List<Cars> getRequiredCars(int count) {
         cars.add(new Cars("BMW", "Black", 200));
         cars.add(new Cars("Audi", "White", 100));
         cars.add(new Cars("Lada", "Silver", 300));
